@@ -4,3 +4,5 @@
 
 
 ### Cách chạy
+#### Clone repository này
+#### Mở file test_signature.sln để mở project
