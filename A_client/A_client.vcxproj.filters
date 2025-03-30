@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test_signature.cpp">
+    <ClCompile Include="A_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="private_A.pem" />
-    <None Include="public_A.pem" />
+    <Text Include="message.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="document.txt" />
+    <None Include="private_A.pem" />
+    <None Include="public_A.pem" />
+    <None Include="signature.bin">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
